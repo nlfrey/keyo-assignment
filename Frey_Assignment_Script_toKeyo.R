@@ -67,4 +67,3 @@ elem_factored <- colorFactor(palette=rainbow(337),nyelem$esid_no) ##Palette = ra
 leaflet(data=nyelem) %>% addTiles() %>% addPolygons(fillColor = ~elem_factored(esid_no),weight=1,popup=elem_popup) ##draw leaflet map
 
 
-##TO DO: HOW TO OUTPUT LEAFLET OBJECTS?
